@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Marvel Site</title>
+</head>
+<body>
+    <header>
+
+        
+       <div class="contenedor">
+         <div class="box">
+             <h1>Superman!</h1>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum ducimus facilis fugiat est atque dignissimos, laboriosam vero eius vitae enim nostrum consequuntur quia quaerat repudiandae repellendus ratione. Natus, quae animi?</p>
+             <img class="superman" src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/08/03/16595421832009.jpg" alt=""> <br>
+             <a href="https://www.marvel.com" target="_blank"><button class="button">Ingresa Ahora</button> </a>
+         </div>
+         <div class="box">
+            <h1>Batman</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum ducimus facilis fugiat est atque dignissimos, laboriosam vero eius vitae enim nostrum consequuntur quia quaerat repudiandae repellendus ratione. Natus, quae animi?</p>
+            <img class="superman" src="https://cdn.mos.cms.futurecdn.net/m6txc3A6HUa22VqX5QGALc.jpg" alt=""> <br>
+            <a href="https://www.marvel.com" target="_blank"><button class="button">Ingresa Ahora</button> </a>
+        </div>
+        <div class="box">
+            <h1>Aquaman</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum ducimus facilis fugiat est atque dignissimos, laboriosam vero eius vitae enim nostrum consequuntur quia quaerat repudiandae repellendus ratione. Natus, quae animi?</p>
+            <img class="aquaman" src="https://i.pinimg.com/originals/8b/38/28/8b38286cde7806fccdab986f92badedb.jpg" alt=""> <br>
+            <a href="https://www.marvel.com" target="_blank"><button class="button">Ingresa Ahora</button> </a>
+        </div>
+       </div>
+       
+        <!-- <div class="box">
+            <h3>Icono</h3>
+            <p>Este es un parrafo</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/1200px-Marvel_Logo.svg.png" alt="icon-marvel">
+        </div>
+ -->
+        <nav>
+            <li>Home</li>
+            <li>Galeria</li>
+            <li>Contáctenos</li>
+        </nav>
+
+        <!-- <div>
+            <h1 class="red-title" id="titulo-principal">Esta es la mejor página de Marvel</h1>
+            <h1 class="blue-title">Creada por estudiantes de Prosper</h1>
+            <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DA2E198288BFCA56AB53340211B38DE7134E40E4521EDCAFE6FFB8CD69250DE9/scale?width=2880&aspectRatio=1.78&format=jpeg" alt="portada-heroes">
+        </div> -->
+    </header>
+</body>
+</html>
+
+<style>
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+    }
+    .red-title{
+        color: red;
+    }
+
+    #titulo-principal{
+        color: chartreuse;
+    }
+
+    .blue-title{
+        color: rgb(0, 60, 255);
+    }
+
+
+    .contenedor{
+        display: flex;
+        justify-content: center;
+    }
+
+    .box{
+        background-color: rgb(233, 233, 233);
+        width: 500px;
+        height: 500px;
+        border: 5px rgb(216, 31, 31) solid;
+        text-align: center;
+        border-radius: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 50px
+       
+    }
+
+    .box p{
+        text-align: justify;
+        margin-top: 5px;
+        padding: 15px;
+    }
+
+    .box h1{
+        margin-top: 20px;
+    }
+
+    .superman{
+        margin-top: 5px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    .aquaman{
+        width: 200px;
+    }
+
+    .button{
+        width: 150px;
+        height: 40px;
+        margin-top: 30px;
+        border-radius: 6px;
+        background-color: #0057ba;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        border: none;
+    }
+    .button:hover {
+        background-color: rgb(190, 31, 31) ;
+        scale: 1.2;
+        transition: 300ms ease;
+    }
+
+</style>
