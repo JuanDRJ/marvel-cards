@@ -9,7 +9,10 @@
 </head>
 <body>
     <header>
-
+        <div class="header">
+            <h3 class="title">EJERCICIO PRÁCTICO HTML & CSS - <strong>Prospercity</strong> </h3>
+        </div>
+    </header>
     
        <div class="contenedor">
          <div class="box">
@@ -44,7 +47,14 @@
             <h1 class="blue-title">Creada por estudiantes de Prosper</h1>
             <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DA2E198288BFCA56AB53340211B38DE7134E40E4521EDCAFE6FFB8CD69250DE9/scale?width=2880&aspectRatio=1.78&format=jpeg" alt="portada-heroes">
         </div> -->
-    </header>
+    
+        <footer>
+            <div class="footer">
+                <h3 class="title">
+                    Diseñado por: Juan David Ramírez Ortiz
+                </h3>
+            </div>
+        </footer>
 </body>
 </html>
 
@@ -115,7 +125,8 @@
     .button{
         width: 150px;
         height: 40px;
-        margin-top: 30px;
+        position: relative;
+        margin-top: 5px;
         border-radius: 6px;
         background-color: #0057ba;
         color: white;
@@ -138,4 +149,28 @@
         box-shadow: rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     }
 
+    .header{
+        background-color: #0057ba;
+        display: flex;
+        justify-content: center;
+        height: 40px;
+        align-items: center;
+    }
+    .title{
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 200;
+    }
+    
+    .footer{
+        background-color: #0057ba;
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+    
+    }
 </style>
